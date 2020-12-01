@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+body {
+	pointer-events: none;
+}
+
+.allow-pointer-events {
+	pointer-events: all;
+}
+
 .center {
   display: flex;
   justify-content: center;

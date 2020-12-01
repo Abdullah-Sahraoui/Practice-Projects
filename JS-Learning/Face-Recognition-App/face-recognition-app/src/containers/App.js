@@ -53,8 +53,8 @@ class App extends Component {
 
 	render() {
 		return (
-			<div>
-			<Particles className="particles" params={particlesSettings} />
+			<div className="main-div">
+				<Particles className="particles" params={particlesSettings} />
 				<Navigation />
 				<Logo />
 				<ImageLinkForm onInputChange={this.onInputChange} onButtonSubmit={this.onButtonSubmit}/>
