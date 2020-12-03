@@ -4,6 +4,7 @@
 
 body {
 	pointer-events: none;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .allow-pointer-events {
