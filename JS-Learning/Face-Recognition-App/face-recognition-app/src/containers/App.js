@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation/Navigation';
 import Signin from '../components/Signin/Signin';
 import Register from '../components/Register/Register';
 import Logo from '../components/Logo/Logo';
+import Rank from '../components/Rank/Rank';
 import ImageLinkForm from '../components/ImageLinkForm/ImageLinkForm';
 import FaceRecognition from '../components/FaceRecognition/FaceRecognition';
 import Particles from 'react-particles-js';
@@ -102,6 +103,7 @@ class App extends Component {
 				{ route === 'home' 
 					? <div>
 							<Logo />
+							<Rank/>
 							<ImageLinkForm
 								onInputChange={this.onInputChange}
 								onButtonSubmit={this.onButtonSubmit}
