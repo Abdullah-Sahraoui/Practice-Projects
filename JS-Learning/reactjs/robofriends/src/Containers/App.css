@@ -6,7 +6,7 @@
     src: local('Mission Script'), url('Mission-Script.woff') format('woff');
 }
 
-.f1 {
+.f1, h1 {
 	font-family: 'Mission Script';
 	font-size: 5em !important;
 }
